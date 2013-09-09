@@ -1,0 +1,4 @@
+#!/bin/sh
+
+find ./stats -name *.chords -size -20c -delete
+

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+OUT_FNAME=statistics.data
+
+cd ./stats
+scala -cp ../ChordStats/src StatsAggregator >$OUT_FNAME
+cd ..

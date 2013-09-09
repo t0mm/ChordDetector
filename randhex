@@ -1,0 +1,3 @@
+#!/bin/sh
+hexdump -e '/1 "%02X"' -n 10 /dev/urandom
+

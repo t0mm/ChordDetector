@@ -1,0 +1,11 @@
+#!/bin/sh
+
+OUT_FNAME=./stats/`./randhex`.chords
+scala -cp ./ChordStats/src ChordStats <$1 >$OUT_FNAME
+
+if [ -s $OUT_FNAME ]; then
+  echo "$1 -> $OUT_FNAME";
+else
+  echo $1
+  rm $OUT_FNAME;
+fi

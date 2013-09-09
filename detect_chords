@@ -1,0 +1,3 @@
+#!/bin/sh
+
+scala -cp ./ChordDetector ru.t0mmy.chorddetector.Main $*

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+find ./rusrock/ -name *.html -exec ./extract_chords {} \;
+

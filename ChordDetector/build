@@ -1,0 +1,3 @@
+#!/bin/sh
+
+fsc -feature src/ru/t0mmy/chorddetector/*.scala
